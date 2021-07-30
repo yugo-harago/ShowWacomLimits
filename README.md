@@ -1,2 +1,2 @@
 # ShowWacomLimits
-Displays limits using image
+Displays wacom screen area limits using image
