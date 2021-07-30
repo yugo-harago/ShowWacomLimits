@@ -1,0 +1,10 @@
+
+Timer timer = new Timer();
+TimerTask task = new TimerTask() {
+    @Override
+    public void run() {
+        var mouse = java.awt.MouseInfo.getPointerInfo().getLocation();
+        System.out.println("y:" + mouse.y);
+    }
+};
+timer.scheduleAtFixedRate(task, 0, 1000);
